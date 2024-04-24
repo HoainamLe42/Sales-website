@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import HomePage from './pages/users/HomePage/Homepage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Hello Anh em</h1>
+    <h2>Header</h2>
+    <h2>Body</h2>
+    <h2>Footer</h2>
   </React.StrictMode>,
 );
 
